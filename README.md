@@ -13,7 +13,7 @@ Any other username → "unknown"
 2. Failed? Fix it please!
 3. Succeeded? Perfect!
 
-### First exercise: Add a “full-address” field to a user map
+### Second exercise: Add a “full-address” field to a user map
 Concatenates street, suite, city, and zipcode into a single string.  
 Uses assoc to add a new key called :full-address to the user map, containing that string.    
 => returns the user map with an added :full-address field  
@@ -26,7 +26,7 @@ Example:
 2. Failed? Fix it please!
 3. Succeeded? Perfect!
 
-### First exercise: Update a user’s website by id
+### Third exercise: Update a user’s website by id
 Takes the user collection and an id.
 Uses assoc (along with map or mapv) to update the :website field only for the user whose id matches.
 Returns the updated collection.  
