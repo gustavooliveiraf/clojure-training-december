@@ -38,3 +38,9 @@ Example:
 1. Run: `lein test :only december.core-test/c-test`
 2. Failed? Fix it please!
 3. Succeeded? Perfect!
+
+### Fourth exercise: Sort in ascending order by lat and if the lat is same, order by id.
+
+1. Run: `lein test :only december.core-test/d-test`
+2. Failed? Fix it please!
+3. Succeeded? Perfect!

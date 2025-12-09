@@ -25,3 +25,11 @@
 (deftest c-test
          (testing "Update a user’s website by id"
                   (is (update-website data id "new-site.com"))))
+
+(defn order-by-
+      [data]
+      data)
+
+(deftest d-test
+         (testing "Sort in ascending order by lat and if the lat is same, order by id"
+                  (is (order-by- data))))
