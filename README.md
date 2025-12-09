@@ -44,3 +44,15 @@ Example:
 1. Run: `lein test :only december.core-test/d-test`
 2. Failed? Fix it please!
 3. Succeeded? Perfect!
+
+### Fifth exercise: Compose a function to extract latitude as a number and use cond-> to enrich the user map based on its value.
+Create a function using comp that:  
+Extracts the latitude (:address :geo :lat)  
+Converts it from string to a numeric value using Double/parseDouble  
+Then, using cond->, update the user map:  
+If the latitude is greater than -40, add :lat-category "north".  
+If the latitude is less than or equal to -40, add :lat-category "south".  
+  
+1. Run: `lein test :only december.core-test/e-test`
+2. Failed? Fix it please!
+3. Succeeded? Perfect!

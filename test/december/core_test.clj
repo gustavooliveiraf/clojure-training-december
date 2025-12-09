@@ -33,3 +33,13 @@
 (deftest d-test
          (testing "Sort in ascending order by lat and if the lat is same, order by id"
                   (is (order-by- data))))
+
+(defn compose-cond
+      [data]
+      (let [output data]
+           (prn output)
+           true))
+
+(deftest d-test
+         (testing "Compose a function to extract latitude as a number and use cond-> to enrich the user map based on its value"
+                  (is (compose-cond data))))
