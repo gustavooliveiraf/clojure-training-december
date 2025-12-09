@@ -40,6 +40,6 @@
            (prn output)
            true))
 
-(deftest d-test
+(deftest e-test
          (testing "Compose a function to extract latitude as a number and use cond-> to enrich the user map based on its value"
                   (is (compose-cond data))))
