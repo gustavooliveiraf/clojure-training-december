@@ -56,3 +56,13 @@ If the latitude is less than or equal to -40, add :lat-category "south".
 1. Run: `lein test :only december.core-test/e-test`
 2. Failed? Fix it please!
 3. Succeeded? Perfect!
+
+### Sixth exercise: Extract name, email, city, and latitude from each user
+Given the collection users, use nested destructuring to extract:
+name, email, city (inside address), lat (inside address.geo)  
+Then print them in the format:  
+Name: <name> | Email: <email> | City: <city> | Latitude: <lat>  
+
+1. Run: `lein test :only december.core-test/f-test`
+2. Failed? Fix it please!
+3. Succeeded? Perfect!
